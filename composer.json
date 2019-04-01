@@ -1,0 +1,13 @@
+{
+  "name": "comdeng/serviceproxy",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "comdeng\\apiproxy\\": "./src",
+      "comdeng\\apiproxy\\tests\\": "./tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
